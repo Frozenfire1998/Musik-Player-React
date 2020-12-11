@@ -3,9 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+font-family: 'Lato', sans-serif;
+}
 h1,h2,h3,h4{
     color: black
 }
-
+h3,h4{
+    font-size: 400;
+    font-family: 'Lato', sans-serif;
+    color: rgb(100,100,100)
+}
+@import "./nav";
 @import "./player";
-@import "./song"
+@import "./song";
+@import "./librery";
